@@ -7,6 +7,8 @@ body, h1, h2, a, button {
 
 
 
+
+
 /*aplying css for heder*/
 .heder {
     position: fixed;
@@ -53,23 +55,23 @@ body, h1, h2, a, button {
 
 .heroo {
     width: 100vw;
-    height: 90%;
+    height: 90vh; /* Make sure it’s 90% of viewport height */
     margin-top: 10vh; /* Adjust for fixed header */
     display: flex;
     align-items: center;
     justify-content: center;
-    background:linear-gradient(to left,#2a045c,#4b0082); /* Gradient effect */
-    color: black; /* Adjust text color for contrast */
-    border-bottom: 2px solid aqua;
-
+    background: linear-gradient(to left,#2a045c,#4b0082);
+    color: white;
+    border-bottom: 5px solid aqua; /* More visible border */
 }
+
 .content {
     position: absolute;
     left: 10%;
     bottom: 55%;
     max-width: 50%;
     /*border: 2px solid aqua;*/
-
+    font-size: 11px;
     overflow: hidden;
     box-shadow: 0 0 20px aqua,0 0 40px aliceblue;
     animation: glow-border 1.5s infinite alternate;
@@ -84,7 +86,7 @@ body, h1, h2, a, button {
     position: absolute;
     left: 70%;
     bottom: 20%;
-
+    color: aliceblue;
 
 }
 
@@ -118,22 +120,40 @@ body, h1, h2, a, button {
 .content1{
     position: absolute;
     left: 15%;
-    bottom: 30%;
+    bottom: 40%;
     max-width: 25%;
     font-family: "Arial Rounded MT Bold", serif;
-    font-size:20px ;
+    font-size:15px ;
     /*border: 2px solid aqua;*/
     /*overflow: hidden;*/
     box-shadow: 0 0 20px aqua,0 0 40px white;
     animation: glow-border 1.5s infinite alternate;
+    color: white;
 
 }
 #btn-con{
     position: absolute;
-    left: 17%;
-    bottom: 15%;
+    left: 15%;
+    bottom: 20%;
     height: 50px;
-    width: 300px;
+    width: 200px;
+
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 30px; /* Curved button */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#btn-project{
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+    height: 50px;
+    width: 200px;
 
     background-color: #007bff; /* Blue background */
     color: white; /* White text */
@@ -162,4 +182,83 @@ body, h1, h2, a, button {
 
 
 /*about me*/
+#about {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #4b0082, #2a045c);
+    border-bottom: 2px solid aqua;
+    padding: 20px 0;
+    position: relative; /* Allows absolute positioning inside */
+}
+
+.about-container {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; /* Ensures absolute elements align properly */
+}
+
+/* H3 (Hello...) positioned at the top-left */
+.about-h3 {
+    position: absolute;
+    bottom: 95%;
+    left: 30px;
+    font-size: 52px;
+    color: aqua;
+    animation: fadeInBounce 1.5s ease-in-out;
+}
+
+/* Text content at the bottom-left */
+.about-text {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    max-width: 50%;
+    color: white;
+    font-size: 20px;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    text-align: justify;
+    box-shadow: 0 0 20px aqua, 0 0 40px white;
+    animation: glow-border 1.5s infinite alternate;
+}
+
+/* Image centered on the right */
+.about-img-container {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about-img-container img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px aqua, 0 0 40px aquamarine;
+    animation: glow-border 1.5s infinite alternate;
+}
+
+/* Animation for Hello */
+@keyframes fadeInBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
 

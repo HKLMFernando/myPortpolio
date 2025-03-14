@@ -1,0 +1,136 @@
+@media all and (max-width: 700px) {
+    /*herooo*/
+
+    .content {
+        position: absolute;
+        left: 10%;
+        bottom: 45%;
+        max-width: 30%;
+        /*border: 2px solid aqua;*/
+        font-size: 11px;
+        overflow: hidden;
+        box-shadow: 0 0 20px aqua,0 0 40px aliceblue;
+        animation: glow-border 1.5s infinite alternate;
+    }
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .animation-content {
+        display: flex;
+        max-width: 75%;
+        position: absolute;
+        left: 60%;
+        bottom: 30%;
+        color: aliceblue;
+
+    }
+    .animation-content h2 {
+        position: absolute;
+        opacity: 0;
+        animation: fadeInOut 6s infinite;
+        font-size: 30px;
+    }
+    .content1{
+        position: absolute;
+        left: 10%;
+        bottom: 20%;
+        max-width: 40%;
+        font-family: "Arial Rounded MT Bold", serif;
+        font-size:12px ;
+        /*border: 2px solid aqua;*/
+        /*overflow: hidden;*/
+        box-shadow: 0 0 20px aqua,0 0 40px white;
+        animation: glow-border 1.5s infinite alternate;
+        color: white;
+
+    }
+    .heroo img {
+        position: absolute;
+        right: 10%;
+        top: 20%;
+        width: 250px;
+        height: 250px;
+        border-radius: 100px;
+        overflow: hidden;
+        box-shadow: 0 0 20px aqua,0 0 40px aquamarine;
+        animation: glow-border 1.5s infinite alternate;
+    }
+
+
+
+
+
+
+
+
+    #btn-con{
+        position: absolute;
+        left: 55%;
+        bottom: 10%;
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+    #btn-project {
+        position: absolute;
+        left: 75%;
+        bottom: 10%;
+
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+    /*about*/
+    .about-container {
+        width: 100vw;
+        height: 100vh; /* Full screen height */
+        display: flex;
+        flex-direction: column; /* Stack h3 on top */
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background: linear-gradient(to right, #4b0082, #2a045c); /* Matching theme */
+        color: white;
+    }
+
+    /* Position h3 at the top */
+    .about-h3 {
+        position: absolute;
+        top: 5%;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Content aligned left */
+    .about-text {
+        position: absolute;
+        top: 35%;
+        left: 10%;
+        font-size: 18px;
+        max-width: 40%;
+        text-align: justify;
+    }
+
+    /* Image positioned middle-right */
+    .about-img-container img {
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translateY(-50%); /* Centers image vertically */
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        box-shadow: 0 0 20px aqua, 0 0 40px aquamarine;
+    }
+
+
+}
