@@ -27,6 +27,8 @@
 .heder h1{
     color: beige;
     font-family:Sofia;
+    position: absolute;
+    left: 5%;
 }
 
 
