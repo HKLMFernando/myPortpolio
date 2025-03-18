@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#project {
+    width: 100%;
+    height: 100vh;
+    background-color: #212121;
+    text-align: center;
+    margin-top: -47px;
+    border-bottom: 3px solid white;
+}
+#projectContent {
+    display: flex;
+    color: white;
+}
+#project h1 {
+    font-size: 70px;
+    color: white;
+}
+#project h3{
+    font-size: 40px;
+}
+
+#project2 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#project p {
+    font-size: 20px;
+    /*text-align: left;*/
+}
+#project1 {
+    margin-left: 4px;
+    margin-top: 30px;
+}
+#projectBtn1{
+    padding: 10px;
+    margin-top: 90px;
+
+    width: 200px;
+
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#projectBtn2 {
+    padding: 10px;
+    margin-top: 0px;
+    width: 200px;
+
+    background-color :black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#projectContent div {
+    background: linear-gradient(to right, #1a1a1a, #333, #1a1a1a);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 500px;
+}
+#projectContent div:hover {
+    background: gray;
+}
+
+                /*skills*/
+
+#skill {
+    background-color:#212121 ;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 2px solid white;
+}
+#skill p {
+    color: white;
+}
+#skill h1 {
+    color: white;
+    margin-bottom: 70px;
+    font-size: 70px;
+
+}
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left:25px ;
+}
+.skillBox {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.skillBox :hover {
+    transform: scale(1.4);
+}
+
+
+                     /*assigment*/
+
+#Assigment{
+    background-color:#212121 ;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#Assigment p{
+    color: white;
+}
+
+#Assigment h1{
+    color: white;
+    margin-bottom: 70px;
+    font-size: 70px;
+}
+
+.assigment-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-left:25px ;
+}
+
+.assigment-Box{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.assigment-Box:hover {
+    transform: scale(1.4);
+}
+.assBtn{
+    padding: 0px;
+    margin-top: 50px;
+
+    width: 70px;
+
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
