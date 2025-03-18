@@ -1,23 +1,23 @@
-@media (max-width: 700px) {
+@media (max-width: 300px) {
     .heder {
-        height: 12%;
+        height: 10%;
         padding: 10px;
     }
 
     .heder h1 {
         position: absolute;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .top-nav {
-        gap: 5px;
+        gap: 0px;
     }
     .top-nav {
         position: absolute;
         right: 5vw;
-        font-size: 14px;
+        font-size: 8px;
         display:flex;
-        gap: 5px;
+        gap: 1px;
         border: 2px solid aqua;
     }
     .top-nav a {
@@ -28,8 +28,8 @@
     a {
         color: #fff;
         text-decoration: none;
-        letter-spacing: 0.15em;
-        padding: 20px;
+        letter-spacing: 0.00em;
+        padding: 10px;
         transition: text-decoration 0.2s ease-in-out;
     }
     a:hover{
@@ -38,90 +38,88 @@
 
 
     .heroo {
-        height: 90vh;
+        height: 100vh;
     }
 
     .content {
         position: absolute;
         left: 10%;
-        bottom: 50%;
-        max-width: 70%;
+        bottom: 55%;
         font-size: 10px;
     }
 
     .content h1 {
-        font-size: 40px;
+        font-size: 30px;
 
     }
     .animation-content {
         display: flex;
         max-width: 100%;
         position: absolute;
-        left: 70%;
-        bottom: 35%;
+        left: 25%;
+        bottom: 25%;
         color: aliceblue;
 
     }
 
     .animation-content h2 {
 
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .heroo img {
         position: absolute;
-        right: 5%;
-        top: 15%;
-        width: 250px;
-        height: 250px;
+        right: 25%;
+        top: 50%;
+        width: 150px;
+        height: 150px;
     }
 
     .content1 {
-        font-size: 12px;
+        position: absolute;
+        left: 10%;
+        bottom: 5%;
+        max-width: 90%;
+        font-size: 10px;
     }
 
     #btn-con, #btn-project {
+        display: none;
         width: 150px;
         height: 40px;
         font-size: 16px;
     }
-    #btn-con {
-        position: absolute;
-        left: 20%;
-        bottom: 10%;
-    }
-    #btn-project {
-        position: absolute;
-        left: 45%;
-        bottom: 10%;
-    }
+
 
 
 
     #about {
-        height: 90vh;
+        height: 100vh;
+        padding: 0px 0;
     }
 
     .about-h3 {
         position: absolute;
-        left: 60%;
-        font-size: 36px;
+        left: 25%;
+        bottom: 100%;
+        font-size: 30px;
     }
 
     .about-text {
         position: absolute;
         top: 20%;
-        right: 0%;
+        right: 10%;
         font-size: 15px;
-        max-width: 50%;
+        max-width: 80%;
     }
 
     .about-img-container img {
         position: absolute;
-        bottom: 30%;
+        bottom: 90%;
         left: 5%;
-        width: 200px;
-        height: 200px;
+        width: 125px;
+        height: 125px;
+        display: none;
     }
 
     .edu {
@@ -131,32 +129,37 @@
 
     .Edu-h3 {
         position: absolute;
-        left: 50%;
-        font-size: 36px;
+        left: 20%;
+        font-size: 30px;
     }
 
     .Edu-img {
-        width: 300px;
-        height: 250px;
+        width: 75px;
+        height: 75px;
+      display: none;
+
     }
 
     .Edu-p {
-        font-size: 16px;
-        max-width: 40%;
+        position: absolute;
+        left: 10%;
+        top: 30%;
+        font-size: 12px;
+        max-width: 70%;
     }
 
     #btn-assigment {
         position: absolute;
-        left: 25%;
-        right: 50%;
-        bottom: 10%;
-        width: 400px;
+        left: 20%;
+        right: 30%;
+        bottom: 5%;
+        width: 200px;
         height: 60px;
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .social {
-        height: 90vh;
+        height: 100vh;
     }
 
     #social-img {
@@ -168,17 +171,17 @@
     }
 
     .social-h3 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .social-apps img, .social-apps1 img {
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
     }
     .social-apps, .social-apps1 {
         display: flex;
         justify-content: center;
-        gap: 5px;
+        gap: 0px;
     }
 
     .call img, .mail img {
@@ -194,12 +197,12 @@
     .apps {
         position: absolute;
         top: 40%;
-        right: 5%;
+        left: 5%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     .footer {
