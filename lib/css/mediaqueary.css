@@ -1,217 +1,45 @@
-@media (max-width: 700px) {
-    .heder {
-        height: 12%;
-        padding: 10px;
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 2.5rem;
     }
-
-    .heder h1 {
-        position: absolute;
-        font-size: 20px;
-    }
-
-    .top-nav {
-        gap: 5px;
-    }
-    .top-nav {
-        position: absolute;
-        right: 5vw;
-        font-size: 14px;
-        display:flex;
-        gap: 5px;
-        border: 2px solid aqua;
-    }
-    .top-nav a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
-    a {
-        color: #fff;
-        text-decoration: none;
-        letter-spacing: 0.15em;
-        padding: 20px;
-        transition: text-decoration 0.2s ease-in-out;
-    }
-    a:hover{
-        text-decoration: underline;
-    }
-
-
-    .heroo {
-        height: 90vh;
-    }
-
-    .content {
-        position: absolute;
-        left: 10%;
-        bottom: 50%;
-        max-width: 70%;
-        font-size: 10px;
-    }
-
-    .content h1 {
-        font-size: 40px;
-
-    }
-    .animation-content {
-        display: flex;
-        max-width: 100%;
-        position: absolute;
-        left: 70%;
-        bottom: 35%;
-        color: aliceblue;
-
-    }
-
-    .animation-content h2 {
-
-        font-size: 30px;
-    }
-
-    .heroo img {
-        position: absolute;
-        right: 5%;
-        top: 15%;
+    .hero img {
         width: 250px;
         height: 250px;
     }
+}
 
-    .content1 {
-        font-size: 12px;
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
     }
-
-    #btn-con, #btn-project {
-        width: 150px;
-        height: 40px;
-        font-size: 16px;
+    .hero h1 {
+        font-size: 2rem;
     }
-    #btn-con {
-        position: absolute;
-        left: 20%;
-        bottom: 10%;
-    }
-    #btn-project {
-        position: absolute;
-        left: 45%;
-        bottom: 10%;
-    }
-
-
-
-    #about {
-        height: 90vh;
-    }
-
-    .about-h3 {
-        position: absolute;
-        left: 60%;
-        font-size: 36px;
-    }
-
-    .about-text {
-        position: absolute;
-        top: 20%;
-        right: 0%;
-        font-size: 15px;
-        max-width: 50%;
-    }
-
-    .about-img-container img {
-        position: absolute;
-        bottom: 30%;
-        left: 5%;
+    .hero img {
         width: 200px;
         height: 200px;
     }
+}
 
-    .edu {
+@media (max-width: 425px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    .hero img {
+        width: 150px;
+        height: 150px;
+    }
+}
 
-        height: 90vh;
+@media (max-width: 375px) {
+    .hero h1 {
+        font-size: 1.2rem;
     }
+}
 
-    .Edu-h3 {
-        position: absolute;
-        left: 50%;
-        font-size: 36px;
-    }
-
-    .Edu-img {
-        width: 300px;
-        height: 250px;
-    }
-
-    .Edu-p {
-        font-size: 16px;
-        max-width: 40%;
-    }
-
-    #btn-assigment {
-        position: absolute;
-        left: 25%;
-        right: 50%;
-        bottom: 10%;
-        width: 400px;
-        height: 60px;
-        font-size: 20px;
-    }
-
-    .social {
-        height: 90vh;
-    }
-
-    #social-img {
-        position: absolute;
-        left: 10%;
-        top: 20%;
-        width: 250px;
-        height: 250px;
-    }
-
-    .social-h3 {
-        font-size: 36px;
-    }
-
-    .social-apps img, .social-apps1 img {
-        width: 50px;
-        height: 50px;
-    }
-    .social-apps, .social-apps1 {
-        display: flex;
-        justify-content: center;
-        gap: 5px;
-    }
-
-    .call img, .mail img {
-        width: 20px;
-        height: 20px;
-        display: none;
-    }
-
-    .call a, .mail a {
-        display: none;
-        font-size: 14px;
-    }
-    .apps {
-        position: absolute;
-        top: 40%;
-        right: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 40px;
-    }
-
-    .footer {
-        padding: 20px 0;
-    }
-
-    .footer-item i {
-        font-size: 18px;
-        padding: 15px;
-    }
-
-    .copyright {
-        font-size: 12px;
+@media (max-width: 320px) {
+    .hero h1 {
+        font-size: 1rem;
     }
 }

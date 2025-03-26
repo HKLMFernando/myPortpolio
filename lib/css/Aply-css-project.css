@@ -186,3 +186,99 @@
     cursor: pointer;
     transition: background 0.3s ease;
 }
+
+
+
+
+/* Mobile Small (320px) */
+@media (max-width: 320px) {
+    #project h1, #skill h1, #Assigment h1 {
+        font-size: 40px;
+    }
+    #project h3 {
+        font-size: 25px;
+    }
+    #project p {
+        font-size: 16px;
+    }
+    #projectContent {
+        flex-direction: column;
+    }
+    .skills-container, .assigment-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skillBox, .assigment-Box {
+        width: 100%;
+    }
+}
+
+/* Mobile Medium (375px) */
+@media (max-width: 375px) {
+    #project h1, #skill h1, #Assigment h1 {
+        font-size: 45px;
+    }
+    #project h3 {
+        font-size: 28px;
+    }
+    #projectContent {
+        flex-direction: column;
+    }
+    .skills-container, .assigment-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile Large (425px) */
+@media (max-width: 425px) {
+    #project h1, #skill h1, #Assigment h1 {
+        font-size: 50px;
+    }
+    #projectContent {
+        flex-direction: column;
+    }
+    .skills-container, .assigment-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablet (768px) */
+@media (max-width: 768px) {
+    #project h1, #skill h1, #Assigment h1 {
+        font-size: 60px;
+    }
+    #projectContent {
+        flex-direction: column;
+    }
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .assigment-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Laptop (1024px) */
+@media (max-width: 1024px) {
+    #project h1, #skill h1, #Assigment h1 {
+        font-size: 65px;
+    }
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .assigment-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Laptop Large (1440px) */
+@media (max-width: 1440px) {
+    #project h1, #skill h1, #Assigment h1 {
+        font-size: 70px;
+    }
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .assigment-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
