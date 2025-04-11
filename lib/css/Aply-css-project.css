@@ -110,84 +110,9 @@
     background-color: rgba(100, 255, 218, 0.1);
 }
 
-/* Responsive adjustments */
-@media (max-width: 1024px) {
-    #project {
-        padding: 100px 40px 60px;
-    }
-
-    #project h1 {
-        font-size: 36px;
-    }
-
-    #project1 h3, #project2 h3 {
-        font-size: 22px;
-    }
-}
-
-@media (max-width: 768px) {
-    #projectContent {
-        grid-template-columns: 1fr;
-        max-width: 500px;
-    }
-
-    #project h1 {
-        font-size: 32px;
-    }
-}
-
-@media (max-width: 425px) {
-    #project {
-        padding: 80px 24px 40px;
-    }
-
-    #project h1 {
-        font-size: 28px;
-        margin-bottom: 40px;
-    }
-
-    #project1, #project2 {
-        padding: 20px;
-    }
-
-    #project1 h3, #project2 h3 {
-        font-size: 20px;
-    }
-
-    #project1 p, #project2 p {
-        font-size: 14px;
-    }
-
-    #projectBtn1, #projectBtn2 {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 320px) {
-    #project h1 {
-        font-size: 24px;
-    }
-
-    #project1 h3, #project2 h3 {
-        font-size: 18px;
-    }
-
-    #project1 img, #project2 img {
-        width: 120px;
-        height: 120px;
-    }
-
-    #project1 p, #project2 p {
-        font-size: 13px;
-    }
-}
 
 
-
-
-
-/* Skills section styling to match project section */
+/* Skills section  */
 #skills {
     background-color: #000000;
     padding: 128px 48px 80px;
@@ -221,9 +146,10 @@
 
 .skills-container {
     display: grid;
-    gap: 60px;
     width: 100%;
     max-width: 1200px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
 }
 
 .skill-box {
@@ -280,6 +206,8 @@
 }
 
 .skill-box img {
+    width: 80px;
+    height: 80px;
     margin-bottom: 15px;
     transition: transform 0.5s ease;
     filter: drop-shadow(0 0 8px rgba(100, 255, 218, 0.3));
@@ -297,52 +225,252 @@
     text-transform: uppercase;
 }
 
-/* Custom responsive breakpoints as specified */
 
-/* Mobile Small (320px) */
-@media (max-width: 320px) {
+/*assigment section*/
+
+#Assigment {
+    background-color: #000000;
+    padding: 128px 48px 80px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+#Assigment h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color:#64ffda ;
+    position: relative;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#Assigment h1::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color:#64ffda ;
+    box-shadow: 0 0 10px rgba(100, 255, 218, 0.6);
+}
+
+.assigment-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.assigment-Box {
+    background-color: #6A6A6A;
+    /*border-radius: var(--border-radius);*/
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Staggered animation delay */
+.assigment-Box:nth-child(1) { animation-delay: 0.1s; }
+.assigment-Box:nth-child(2) { animation-delay: 0.2s; }
+.assigment-Box:nth-child(3) { animation-delay: 0.3s; }
+.assigment-Box:nth-child(4) { animation-delay: 0.4s; }
+.assigment-Box:nth-child(5) { animation-delay: 0.5s; }
+.assigment-Box:nth-child(6) { animation-delay: 0.6s; }
+.assigment-Box:nth-child(7) { animation-delay: 0.7s; }
+.assigment-Box:nth-child(8) { animation-delay: 0.8s; }
+.assigment-Box:nth-child(9) { animation-delay: 0.9s; }
+.assigment-Box:nth-child(10) { animation-delay: 1s; }
+
+.assigment-Box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #64ffda, #ffffff, #64ffda);
+    opacity: 0.7;
+}
+
+.assigment-Box:hover {
+    box-shadow: 0 10px 30px rgba(100, 255, 218, 0.2);
+    transform: scale(1.05);
+}
+
+.assigment-Box p {
+    color: #64ffda;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.assigment-Box p:nth-child(2) {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+}
+
+.assBtn {
+    background-color: transparent;
+    color: ghostwhite;
+    border: 2px solid aqua;
+    padding: 10px 15px;
+    /*border-radius: var(--border-radius);*/
+    cursor: pointer;
+    font-weight: 600;
+    /*transition: all var(--transition-speed);*/
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+.assBtn:hover {
+    background-color: rgba(100, 255, 218, 0.1);
+    box-shadow: 0 0 15px rgba(100, 255, 218, 0.3);
+}
+
+.assBtn a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1440px) {
+    .assigment-container {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 55px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #project {
+        padding: 100px 40px 60px;
+    }
+
+    #project h1 {
+        font-size: 36px;
+    }
+
+    #project1 h3, #project2 h3 {
+        font-size: 22px;
+    }
+
+
+    /*skill*/
     .skills-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 30px;
     }
 
-    #skills {
-        padding: 100px 20px 60px;
+    .skill-box img {
+        width: 75px;
+        height: 75px;
     }
 
-    .skill-box {
+    /*assigment*/
+    .assigment-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    #projectContent {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+
+    #project h1 {
+        font-size: 32px;
+    }
+
+    /*skill*/
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    #skills {
+        padding: 120px 40px 80px;
+    }
+
+    .skill-box img {
+        width: 70px;
+        height: 70px;
+    }
+    /*assigment*/
+    #Assigment {
+        padding: 110px 30px 70px;
+    }
+
+    .assigment-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px;
+    }
+}
+
+@media (max-width: 425px) {
+    #project {
+        padding: 80px 24px 40px;
+    }
+
+    #project h1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    #project1, #project2 {
         padding: 20px;
     }
 
-    .skill-box img {
-        width: 60px;
-        height: 60px;
+    #project1 h3, #project2 h3 {
+        font-size: 20px;
     }
 
-    #skills h1 {
-        font-size: 32px;
-    }
-}
-
-/* Mobile Medium (375px) */
-@media (min-width: 321px) and (max-width: 375px) {
-    .skills-container {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 30px;
+    #project1 p, #project2 p {
+        font-size: 14px;
     }
 
-    #skills {
-        padding: 100px 24px 60px;
+    #projectBtn1, #projectBtn2 {
+        padding: 10px 20px;
+        font-size: 14px;
     }
-
-    .skill-box img {
-        width: 65px;
-        height: 65px;
-    }
-}
-
-/* Mobile Large (425px) */
-@media (min-width: 376px) and (max-width: 425px) {
+    /*skill*/
     .skills-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
@@ -360,47 +488,106 @@
         width: 60px;
         height: 60px;
     }
-}
 
-/* Tablet (768px) */
-@media (min-width: 426px) and (max-width: 768px) {
-    .skills-container {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 25px;
+    /*assigment*/
+    #Assigment {
+        padding: 100px 24px 60px;
     }
 
-    #skills {
-        padding: 120px 40px 80px;
+    #Assigment h1 {
+        font-size: 32px;
     }
 
-    .skill-box img {
-        width: 70px;
-        height: 70px;
+    .assigment-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
     }
 }
-
-/* Laptop (1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (max-width: 375px) {
     .skills-container {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
 
-    .skill-box img {
-        width: 75px;
-        height: 75px;
-    }
-}
-
-/* Laptop Large (1440px) */
-@media (min-width: 1025px) {
-    .skills-container {
-        grid-template-columns: repeat(5, 1fr);
-        gap: 40px;
+    #skills {
+        padding: 100px 24px 60px;
     }
 
     .skill-box img {
-        width: 80px;
-        height: 80px;
+        width: 65px;
+        height: 65px;
+    }
+
+    /*assigment*/
+    #Assigment {
+        padding: 90px 20px 50px;
+    }
+
+    #Assigment h1 {
+        font-size: 30px;
+    }
+
+    .assigment-container {
+        gap: 35px;
     }
 }
+
+@media (max-width: 320px) {
+    #project h1 {
+        font-size: 24px;
+    }
+
+    #project1 h3, #project2 h3 {
+        font-size: 18px;
+    }
+
+    #project1 img, #project2 img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #project1 p, #project2 p {
+        font-size: 13px;
+    }
+
+    /*skill*/
+    #skills {
+        padding: 100px 20px 60px;
+    }
+
+    .skill-box {
+        padding: 20px;
+    }
+
+    .skill-box img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #skills h1 {
+        font-size: 32px;
+    }
+
+    /*assigment*/
+    #Assigment {
+        padding: 80px 16px 40px;
+    }
+
+    #Assigment h1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .assigment-container {
+        gap: 30px;
+    }
+
+    .assigment-Box {
+        padding: 20px;
+    }
+
+    .assigment-Box:hover {
+        transform: scale(1.03);
+    }
+}
+
