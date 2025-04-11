@@ -1,6 +1,6 @@
 @media (max-width: 1440px) {
     .heroo {
-        padding: 7rem 2rem 2rem;
+        padding: 112px 32px 32px;
     }
 
     .content h1 {
@@ -16,7 +16,7 @@
         height: 350px;
     }
 
-/*                    about       */
+    /*                    about       */
     #about {
         padding: 112px 32px 32px;
     }
@@ -58,7 +58,7 @@
 
 @media (max-width: 1024px) {
     .heder {
-        padding: 1.2rem 2rem;
+        padding: 19.2px 32px;
     }
 
     .content h1 {
@@ -129,7 +129,7 @@
     .heroo {
         grid-template-columns: 1fr;
         text-align: center;
-        padding-top: 6rem;
+        padding-top: 96px;
         grid-template-rows: auto auto auto auto auto;
     }
 
@@ -149,12 +149,12 @@
     .content1 {
         grid-column: 1 / -1;
         grid-row: 3 / 4;
-        max-width: 100%;
+        max-width: 120%;
     }
 
     .animation-content {
         grid-column: 1 / -1;
-        grid-row: 4 / 5;
+        grid-row: 2 / 5;
         height: 40px;
         margin-top: 1rem;
     }
@@ -214,6 +214,13 @@
         order: 2;
     }
 
+    .about-h3 {
+        grid-column: 1 / -1;
+        grid-row:1/-4 ;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
 
     .about-img-container {
         grid-column: 1 / -1;
@@ -237,6 +244,12 @@
         grid-template-columns: 1fr;
         text-align: center;
     }
+    .Edu-h3 {
+        grid-column: 1 / -1;
+        grid-row: -2/-4;
+        text-align: center;
+        margin-bottom: 24px;
+    }
 
     .Edu-img {
         grid-column: 1 / -1;
@@ -249,7 +262,10 @@
     }
 
     .button {
-        grid-row: 4 / 5;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 120%;
     }
 
     .Edu-img img {
@@ -501,7 +517,7 @@
     }
 
 
-/*                about                   */
+    /*                about                   */
     .about-h3 h3 {
         font-size: 24px;
     }
