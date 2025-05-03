@@ -72,8 +72,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
-    padding: 8rem 3rem 3rem;
-    gap: 2rem;
+    padding: 128px 48px 48px;
+    gap: 32px;
     min-height: 100vh;
     position: relative;
     border: 2px solid aqua;
@@ -87,7 +87,7 @@ body {
 .content h1 {
     font-size: 72px;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     color: #e6f1ff;
 }
 
@@ -116,9 +116,9 @@ body {
 
 .content1 p {
     color: #8892b0;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1.7;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 
@@ -128,7 +128,7 @@ body {
     height: 50px;
     overflow: hidden;
     position: relative;
-    margin-top: 2rem;
+    margin-top: 32px;
     text-align: center;
 }
 
@@ -185,13 +185,13 @@ body {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
     display: flex;
-    gap: 1.5rem;
-    margin-top: 1rem;
+    gap: 24px;
+    margin-top: 16px;
 }
 
 .button button {
-    padding: 1rem 2rem;
-    font-size: 1rem;
+    padding: 16px 32px;
+    font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -221,7 +221,7 @@ body {
 
 
 .content, .content1 {
-    padding: 1.5rem;
+    padding: 24px;
     position: relative;
     z-index: 1;
 }
@@ -239,7 +239,6 @@ body {
     opacity: 0.5;
     z-index: -1;
 }
-
 
 
 
