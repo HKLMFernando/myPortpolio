@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 3rem;
+    padding: 24px 48px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -28,7 +28,7 @@ body {
 }
 
 .heder h1 {
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 700;
     color: #64ffda;
     letter-spacing: 1px;
@@ -50,15 +50,15 @@ body {
 
 .top-nav {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .top-nav a {
     color: #ccd6f6;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 16px;
     transition: color 0.3s ease;
-    padding: 0.5rem 1rem;
+    padding: 8px 16px;
     border-radius: 4px;
 }
 
