@@ -156,7 +156,7 @@
         grid-column: 1 / -1;
         grid-row: 2 / 5;
         height: 40px;
-        margin-top: 1rem;
+        margin-top: 16px;
     }
 
     .animation-content h2 {
@@ -181,7 +181,7 @@
         flex-direction: column;
         width: 100%;
         background-color: rgba(10, 25, 47, 0.95);
-        padding: 1rem 0;
+        padding: 16px 0;
         gap: 0;
         transform: translateY(-150%);
         transition: transform 0.3s ease;
@@ -192,7 +192,7 @@
     }
 
     .top-nav a {
-        padding: 1rem 2rem;
+        padding: 16px 32px;
         width: 100%;
         text-align: center;
     }
@@ -299,7 +299,7 @@
 
 @media (max-width: 425px) {
     .heder {
-        padding: 1rem 1.5rem;
+        padding: 16px 24px;
     }
 
     .content h1 {
