@@ -425,4 +425,77 @@
     }
 }
 
+@media (max-width: 375px) {
+    .content h1 {
+        font-size: 36px;
+    }
+
+    .animation-content h2 {
+        font-size: 20px;
+    }
+
+    .heroo img {
+        width: 200px;
+        height: 200px;
+    }
+    /*                 about   */
+    .about-h3 h3 {
+        font-size: 26px;
+    }
+
+    .about-img-container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+    }
+
+    /*      edu      */
+    .Edu-h3 h2 {
+        font-size: 26px;
+    }
+
+    .Edu-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Edu-p p {
+        font-size: 14px;
+    }
+
+    /*           social       */
+    .social-h3 h3 {
+        font-size: 26px;
+    }
+
+    #social-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .apps {
+        gap: 24px;
+    }
+
+    .social-apps, .social-apps1 {
+        gap: 16px;
+    }
+
+    .social-apps img, .social-apps1 img {
+        width: 36px;
+        height: 36px;
+    }
+
+    #git {
+        width: 24px;
+        height: 24px;
+    }
+
+
+}
+
+
 
