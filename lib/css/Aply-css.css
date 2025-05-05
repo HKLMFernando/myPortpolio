@@ -26,6 +26,9 @@ body {
     backdrop-filter: blur(10px);
     border: 2px solid aqua;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .heder h1 {
     font-size: 32px;
