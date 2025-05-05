@@ -589,7 +589,7 @@
 }
 
 
-/* JavaScript functionality for mobile menu */
+/*hambuger function*/
 .top-nav.active {
     transform: translateY(0);
 }
