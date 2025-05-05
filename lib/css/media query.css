@@ -496,6 +496,103 @@
 
 
 }
+@media (max-width: 320px) {
+    .heder h1 {
+        font-size: 24px;
+    }
+
+    .content h1 {
+        font-size: 32px;
+    }
+
+    .animation-content h2 {
+        font-size: 18px;
+    }
+
+    .content1 p {
+        font-size: 15px;
+    }
+
+
+    /*                about                   */
+    .about-h3 h3 {
+        font-size: 24px;
+    }
+
+    .about-img-container img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-text p {
+        font-size: 13px;
+    }
+
+
+
+    /*      edu    */
+    .Edu-h3 h2 {
+        font-size: 24px;
+    }
+
+    .Edu-img img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .Edu-p p {
+        font-size: 13px;
+    }
+
+    .edu .button button {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    /*           social       */
+    .social-h3 h3 {
+        font-size: 24px;
+    }
+
+    #social-img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .social-apps img, .social-apps1 img {
+        width: 32px;
+        height: 32px;
+    }
+
+    #git {
+        width: 22px;
+        height: 22px;
+    }
+
+    .call a, .mail a {
+        font-size: 13px;
+    }
+
+    /*             fotter     */
+
+    .footer-item i {
+        font-size: 16px;
+    }
+
+    .footer-item span {
+        font-size: 13px;
+    }
+
+    .copyright {
+        font-size: 11px;
+    }
+}
+
+
+/* JavaScript functionality for mobile menu */
+.top-nav.active {
+    transform: translateY(0);
+}
 
 
 
