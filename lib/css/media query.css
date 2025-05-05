@@ -296,4 +296,133 @@
 
 
 }
+@media (max-width: 425px) {
+    .heder {
+        padding: 16px 24px;
+    }
+
+    .content h1 {
+        font-size: 42px;
+    }
+
+    .animation-content h2 {
+        font-size: 24px;
+    }
+
+    .heroo {
+        padding: 80px 24px 24px;
+    }
+
+    .content, .content1 {
+        padding: 16px;
+    }
+
+    .button {
+        flex-direction: row;
+        gap: 16px;
+    }
+
+    .button button {
+        width: 100%;
+    }
+
+    /*               about      */
+    #about {
+        padding: 80px 24px 24px;
+    }
+
+    .about-h3 h3 {
+        font-size: 28px;
+    }
+
+    .about-img-container img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .about-text {
+        padding: 16px;
+    }
+    /*      edu      */
+    .edu {
+        padding: 80px 24px 24px;
+    }
+
+    .Edu-h3 h2 {
+        font-size: 28px;
+    }
+
+    .Edu-img img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .Edu-p {
+        padding: 16px;
+    }
+
+    .edu .button button {
+        padding: 12px 24px;
+        font-size: 14px;
+        width: 100%;
+    }
+
+
+    /*           social       */
+    #social {
+        padding: 80px 24px 24px;
+    }
+
+    .social-h3 h3 {
+        font-size: 28px;
+    }
+
+    #social-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .social-apps, .social-apps1 {
+        gap: 24px;
+    }
+
+    .social-apps img, .social-apps1 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    #git {
+        width: 28px;
+        height: 28px;
+    }
+
+    .call, .mail {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .call a, .mail a {
+        font-size: 14px;
+    }
+
+    /*             fotter     */
+
+    footer {
+        padding: 30px 0 15px;
+    }
+
+    .footer-item i {
+        font-size: 18px;
+    }
+
+    .footer-item span {
+        font-size: 14px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
 
