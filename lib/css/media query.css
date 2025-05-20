@@ -259,14 +259,14 @@
 
     .Edu-p {
         grid-column: 1 / -1;
-        grid-row: 2 / 3;
+        grid-row: 1 / 2;
     }
 
     .button {
         position: absolute;
         left: 0;
         right: 0;
-        top: 0%;
+        bottom: 0%;
     }
 
     .Edu-img img {
