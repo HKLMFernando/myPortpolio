@@ -150,7 +150,8 @@
     .content1 {
         grid-column: 1 / -1;
         grid-row: 3 / 4;
-        max-width: 120%;
+        max-width: 100%;
+        max-height: fit-content;
     }
 
     .animation-content {
@@ -167,7 +168,7 @@
 
     .button {
         grid-column: 1 / -1;
-        grid-row: 4 / 5;
+        grid-row: 5 / 6;
         justify-content: center;
     }
 
