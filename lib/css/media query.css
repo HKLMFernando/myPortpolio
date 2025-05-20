@@ -247,26 +247,26 @@
     }
     .Edu-h3 {
         grid-column: 1 / -1;
-        grid-row: -2/-4;
+        grid-row: -6/-7;
         text-align: center;
         margin-bottom: 24px;
     }
 
     .Edu-img {
         grid-column: 1 / -1;
-        grid-row: 2 / 3;
+        grid-row: 1 / 2;
     }
 
     .Edu-p {
         grid-column: 1 / -1;
-        grid-row: 3 / 4;
+        grid-row: 2 / 3;
     }
 
     .button {
         position: absolute;
         left: 0;
         right: 0;
-        top: 120%;
+        top: 0%;
     }
 
     .Edu-img img {
