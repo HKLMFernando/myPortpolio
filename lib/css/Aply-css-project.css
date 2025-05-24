@@ -269,7 +269,6 @@
 
 .assigment-Box {
     background-color: #6A6A6A;
-    /*border-radius: var(--border-radius);*/
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -290,7 +289,6 @@
     }
 }
 
-/* Staggered animation delay */
 .assigment-Box:nth-child(1) { animation-delay: 0.1s; }
 .assigment-Box:nth-child(2) { animation-delay: 0.2s; }
 .assigment-Box:nth-child(3) { animation-delay: 0.3s; }

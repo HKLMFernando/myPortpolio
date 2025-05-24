@@ -747,7 +747,6 @@ html{
 .call img, .mail img {
     width: 24px;
     height: 24px;
-    filter: brightness(0) saturate(100%) invert(95%) sepia(12%) saturate(1033%) hue-rotate(118deg) brightness(92%) contrast(104%);
 }
 
 .call a, .mail a {
